@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemploo 1</title>
+    <style>
+        html, body{
+            height: 100%;
+            background-color: #456789;
+        }
+
+        .main{
+            height: 100%;
+            width: 100%;
+            display: table;
+        }
+        .wrapper {
+            display: table-cell;
+            height: 100%;
+            vertical-align: middle;
+        }
+        /** **/
+        #demo{
+            width: 100%;
+            height: 630%;
+            margin: auto;
+            background: url('./images/1424231838_firefox-512.png') left top repeat-x /**Tarea: coloque 1 imagen dentro de una carpeta **/,
+                        url('./images/1424232187_grass.png') left bottom repeat-x,
+                        url('./images/1424232593_clouds-cloud-128.png') center bottom no-repeat;
+            border: 50px solid white;
+            border-radius: 50% 50%;
+            box-shadow: 0 0 15px 15px #E66000;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="wrapper">
+            <div id="demo">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
