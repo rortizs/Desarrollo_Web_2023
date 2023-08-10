@@ -1,10 +1,62 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <!-- etiquete imprecindible, para que los dispositivos-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--etiquetas de hojas de estilo-->
+        <link href="./CSS/reset.css" rel="stylesheet" type="text/css"/>
+        <!--tipografias usadas-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,400italic" rel="stylesheet" type="text/css">
+
+        <!--Hoja de estilos general (televisores, monitores) -->
+        <link href="./CSS/estilo.css" rel="stylesheet" type="text/css"/>
+        <!--Hoja de estilos general (para monitores normales y tabletas grandes) -->
+        <link media="only screen and (max-width: 1500px)" href="./CSS/estilo_tableta.css" rel="stylesheet" type="text/css"/>
+        <!--Hoja de estilos general (tabletas pequenas y moviles) -->
+        <link media="only screen and (max-width: 790px)" href="./CSS/estilo_movil.css" rel="stylesheet" type="text/css"/>
+        <!--Hoja de estilos general (moviles pequenos) -->
+        <link media="only screen and (max-width: 490px)" href="./CSS/estilo_mini.css" rel="stylesheet" type="text/css"/>
 
         <title>Ejercicio 3</title>
     </head>
     <body>
-        
+        <!-- Div es necesario para centrar todo el contenido y darle un ancho especifico-->
+        <div id="wrapper">
+            <header>
+                <img src="./DATA/foto_p.jpg" alt="Autorretrato de Un tipo"/>
+                <div id="titulo">
+                    <h1>Jose</h1>
+                    <h2>Giron</h2>
+                </div>
+            </header>
+
+            <nav id="contacto">
+                <ul>
+                    <li id="fb">
+                        <a href="https://www.facebook.com">Facebook</a>
+                    </li>
+                    <li id="tw">
+                        <a href="https://www.twitter.com">Facebook</a>
+                    </li>
+                    <li id="gh">
+                        <a href="https://www.github.com">Github</a>
+                    </li>
+                    <li id="fr">
+                        <a href="https://www.flickr.com">Flickr</a>
+                    </li>
+                    <li id="de">
+                        <a href="https://www.demotix.com">Demotix</a>
+                    </li>
+                    <li id="ma">
+                        <a href="mailto://rortizs@miumg.edu.gt">Mi email</a>
+                    </li>
+                </ul>
+            </nav>
+
+            
+
+        </div>
+
     </body>
 </html>

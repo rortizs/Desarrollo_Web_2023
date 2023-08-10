@@ -29,3 +29,7 @@
 ## CADA UNO DE LOS CÓDIGO COMPARTIDOS EN ESTA SERIE ES DE USO PÚBLICO
 
 ## ING. RICHARD ORTIZ SASVIN - UMG - SEDE SANARATE
+
+## Información sobre media querys
+
+https://weekendprojects.dev/posts/which-responsive-media-query-breakpoints-should-you-use/
