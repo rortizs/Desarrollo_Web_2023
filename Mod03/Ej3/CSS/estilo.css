@@ -149,7 +149,7 @@ header h2{
 
 #galeria h2, #CV h2{
     border-bottom: 1px solid #ccc;
-    text-variant: small-caps;
+    font-variant: small-caps;
     font-family: 'Vollkorn', serif;
     text-align: center;
     font-size: 35px;
@@ -221,11 +221,13 @@ que cambia al pasar el ratón por encima */
 /* Organizamos el texto del CV, que no es muy largo, en dos columnas */
 
 #textoCV{
-    -moz-column-count: 2;
-    -moz-column-gap: 50px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 50px;
-    text-align: justify;
+    column-count: 2; /* Número de columnas */
+    column-gap: 50px; /* Espacio entre columnas estándar */
+    -moz-column-count: 2; /* Número de columnas para Firefox */
+    -moz-column-gap: 50px; /* Espacio entre columnas para Firefox */
+    -webkit-column-count: 2; /* Número de columnas para navegadores WebKit (Safari, Chrome) */
+    -webkit-column-gap: 50px; /* Espacio entre columnas para navegadores WebKit */
+    text-align: justify; /* Justificar el texto en las columnas */
 }
 
 #textoCV p {

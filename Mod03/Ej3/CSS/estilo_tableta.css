@@ -42,8 +42,10 @@ header h2{
 }
 
 #textoCV {
-    -moz-column-count: 1;
-    -webkit-column-count: 1;
+    column-count: 1; /* Número de columnas estándar */
+    -moz-column-count: 1; /* Número de columnas para Firefox */
+    -webkit-column-count: 1; /* Número de columnas para navegadores WebKit (Safari, Chrome) */
+    text-align: justify; /* Justificar el texto en la columna */
 }
 
 #textoCV ul{
