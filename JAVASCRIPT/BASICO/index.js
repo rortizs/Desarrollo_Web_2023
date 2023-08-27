@@ -42,4 +42,8 @@ function tiposdedatos(){
 //OPERADORES MATEMATICOS, LOGICOS Y DE COMPARACION
 function operadores(){
   var a = 2;
+  var b = 3, d=2; //varias asignaciones en un alinea
+  var c = a + b; //suma
+  
+  
 }
