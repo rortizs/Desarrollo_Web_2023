@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script>
+    /**FUNCIONES
+    * Las instrucciones js se agrupan en funciones, bloques de codigo con un nombre, que permite llamar, generalmetne ocurra un evento.
+    * 
+    */
+
+    //documenten su codigo
+    function unaFuncion(par1, par2){
+        
+        var res = sumar(par1, par2) 
+        document.getElementById("demo").innerHTML = "Nuevo valor:"+res;
+    }
+
+    //documenten su codigo
+    function sumar(a,b){
+        return a+b;
+    }
+
+</script>
+<body>
+    <p id="demo">Este esto cambia al pulsar el boton</p>
+    <button type="button" onclick="unaFuncion(10,15)">Pulsame y cambiare!</button>
+    
+</body>
+</html>
