@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    function otraFuncion(){
+        document.getElementById("demo1").innerHTML = sumar(2,6);
+        document.getElementById("demo2").innerHTML = sumar;
+    }
+
+    function sumar(a,b){
+        return a+b;
+    }
+</script>
+
+<body>
+    <h3>Resultado del primer parrafo</h3>
+    <p id="demo1">Este texto cambia al pulsar el boton</p>
+    <h3>Resultado del segundo parrafo</h3>
+    <p id="demo2">Este tambien cambia pero por la definicion de la funcion</p>
+    <button type="button" onclick="otraFuncion()">Pulsame y cambiare</button>
+</body>
+</html>
