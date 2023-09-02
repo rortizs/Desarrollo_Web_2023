@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    //variables en js
+    //esta una vairable global pues esta fuera de una funcion
+    var varglobal1 = 123;    
+
+    function leer(){
+        //esta es una variable local, pues esta declarada dentro de una funcion
+        var varlocal1 = 942;
+
+        //sin embargo esta es global, pues no se llego a declarar y se crea simplemente dandole valor
+        varglobal2 = 342;
+
+        //Aunque se si indica esta liena, se pasa a "modo estricto", y con el, no se pueden usar varialbes sin declarar
+        "use strict";
+
+        //el ambito de una variable global es la venta actual completa. Se pude crear una variable local que "sobreesciba" la global
+        //(shadwing)
+        var varglobal1 = 752;
+
+        //como el ambito de una variable global es la ventana actual completa, se puede seguir invocando a una variable "shadowed" con 
+        //window.nomvar
+        var nueva = window.varglobal1;
+
+        //HOISTING a un comportamiento js que mueve todas la declaraciones de variables al inicio de su bloque,
+        //(script o function)
+        //por lo tanto, se permite declarar una variable DEPUES de su uso.
+        variablefinal = 8;
+        var variablefinal; //ahora variablefinal ya no es global, es local
+    }
+</script>
+<body>
+    
+</body>
+</html>
