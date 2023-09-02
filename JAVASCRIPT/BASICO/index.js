@@ -14,7 +14,7 @@
 function tiposdedatos(){
   //tipo de datos principales
   //tipos primitivos
-  var num = 16;   //variable llamada num tiene un valor de 16
+  var num = 15;   //variable llamada num tiene un valor de 16
   var cad= "hola";  //cadena (string)
   var bo = false;  //boleano
   var y;  //un tipo de cadena indefinido (undefined)
@@ -36,14 +36,12 @@ function tiposdedatos(){
 
   bo = unidefined;  //la variable no tiene ahora ni valor ni tipo
 
+  if (num!=16){
+    //realizo algo  true
+  }else{
+    //realizo otra cosa  false
+  }
+
 
 }
 
-//OPERADORES MATEMATICOS, LOGICOS Y DE COMPARACION
-function operadores(){
-  var a = 2;
-  var b = 3, d=2; //varias asignaciones en un alinea
-  var c = a + b; //suma
-  
-  
-}

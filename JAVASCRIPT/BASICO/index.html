@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        function operadores(){
+            var a = 2; //operador de asignacion
+            var b = 3, d=3; //varias asignaciones en una linea
+            var c = 2 + 3; //operador suma, o tambien -,*,/, %
+
+            c += 6;         //operador de asignacion y suma, o tambien -=, *=
+            t = "Hola " + 5; //operador de suma con cadenas, concatena: hola 5
+            h = "pi"+3+14   //convierte todo a cadena tras un string, y concatena: pi314
+            h = 3+14+"pi"   //suma los numeros y concatena: 17pi
+
+            //COMPARACIONES 
+            //SI SE COMPARA UN NUMERO Y UN STRING, JS convierte el string en numero.
+            // Una cadena vacia se convierte en cero
+            // una cadena no numerica se conerte en NaN (que al comparar da siempre false)
+
+            a=3;
+            re = (a==3) //comparacion de valor, resultado true
+            re = (a=="3") //comparacion de valor, resultado true
+            re = (a===3) //comparacion de valor y tipo, resultado es true
+            re = (a==="3") //comparacion de valor y tipo, resultado es false
+
+            re = (a!=2) //comparacion de valor, resultado es true
+            re = (a!==3) //comparacion de valor y tipo, resultado false
+            re = (a==="3") //comparacion de valor y tipo, resultado true
+
+            re = (a > 23) //comparacion por mayor, o tambien <, <=, >=
+
+            re = (a=="3" && a <2) //operador logico AND, resultado false
+            re = (a=="3" || a<5) //operador logico OR, resultado true
+            re = ! (a=="3") //operador logico NOT, resultado FALSE
+        }
+    </script>
+</body>
+</html>
