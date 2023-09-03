@@ -1,0 +1,24 @@
+body{
+    background:#456789;
+    color: white;
+    margin: 0;
+}
+
+#ejercicio1{
+    margin: 200px auto;
+    text-align: center;
+}
+
+#ejercicio1 h1{
+    font-family: 'Vollkorn';
+    font-size: 60px;
+}
+
+#ejercicio1 p{
+    display: block;
+    width: 100%;
+    background: white;
+    padding: 75px 0;
+    color: #456745;
+    font-size: 25px;
+}
