@@ -1,0 +1,19 @@
+.slideshow {
+    width: 500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide {
+    float: left;
+    transform: translateX(-500px);
+    transition: transform 1s;
+}
+
+.slide:first-child{
+    transform: translateX(0);
+}
+
+.slide:hover {
+    transform: translateX(0);
+}
